@@ -1,0 +1,42 @@
+[
+  {
+    "bank_name": "BIAT",
+    "product_name": "SME Loan (Simulation)",
+    "rate_value": 9.75,
+    "valid_from": "2025-01-01",
+    "valid_to": null,
+    "source_note": "Mock data for academic simulation"
+  },
+  {
+    "bank_name": "Amen Bank",
+    "product_name": "Startup Boost Loan (Simulation)",
+    "rate_value": 10.25,
+    "valid_from": "2025-01-01",
+    "valid_to": null,
+    "source_note": "Mock data for academic simulation"
+  },
+  {
+    "bank_name": "Attijari Bank",
+    "product_name": "Working Capital Loan (Simulation)",
+    "rate_value": 10.90,
+    "valid_from": "2025-01-01",
+    "valid_to": null,
+    "source_note": "Mock data for academic simulation"
+  },
+  {
+    "bank_name": "BH Bank",
+    "product_name": "Investment Loan (Simulation)",
+    "rate_value": 9.95,
+    "valid_from": "2025-01-01",
+    "valid_to": null,
+    "source_note": "Mock data for academic simulation"
+  },
+  {
+    "bank_name": "BNA Bank",
+    "product_name": "Agritech Loan (Simulation)",
+    "rate_value": 10.60,
+    "valid_from": "2025-01-01",
+    "valid_to": null,
+    "source_note": "Mock data for academic simulation"
+  }
+]
