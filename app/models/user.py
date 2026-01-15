@@ -27,7 +27,9 @@ class User(db.Model):
     startup_id = db.Column(db.Integer, db.ForeignKey("startups.id"), create_constraint=False , nullable=True, index=True)
 
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
-
+    field = db.Column(db.String(80), nullable=True)      # ex: "Data Analytics"
+    skills = db.Column(db.String(255), nullable=True)    # ex: "Python, Power BI"
+    
     # relationships
     owned_startups = db.relationship(
         "Startup",

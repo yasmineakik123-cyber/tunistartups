@@ -5,7 +5,17 @@ class RegisterSchema(Schema):
     password = fields.Str(required=True, validate=validate.Length(min=6))
     role = fields.Str(required=True)
     location = fields.Str(required=False, allow_none=True)
-
+    field = fields.Str(required=False, allow_none=True)
+    skills = fields.Str(required=False, allow_none=True)
+class MeSchema(Schema):
+    id = fields.Int()
+    username = fields.Str()
+    role = fields.Str()
+    location = fields.Str(allow_none=True)
+    field = fields.Str(allow_none=True)
+    skills = fields.Str(allow_none=True)
+    startup_id = fields.Int(allow_none=True)
+       
 class LoginSchema(Schema):
     username = fields.Str(required=True)
     password = fields.Str(required=True)

@@ -4,7 +4,7 @@ from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identi
 
 from ..models.user import User
 from ..services.auth_service import register_user, authenticate_user
-from ..schemas import RegisterSchema, LoginSchema, TokenSchema
+from ..schemas import RegisterSchema, LoginSchema, TokenSchema, MeSchema
 
 blp = Blueprint("Auth", "auth", description="Auth endpoints")
 
@@ -24,7 +24,10 @@ class Register(MethodView):
             username=data["username"],
             password=data["password"],
             role=data["role"],
-            location=data.get("location")
+            location=data.get("location"),
+            field=data.get("field"),
+            skills=data.get("skills")
+            
         )
         return {"access_token": make_token(user)}
 
@@ -39,6 +42,7 @@ class Login(MethodView):
 @blp.route("/users/me")
 class Me(MethodView):
     @jwt_required()
+    @blp.response(200, RegisterSchema)
     def get(self):
         user_id = int(get_jwt_identity())
         user = User.query.get_or_404(user_id)
@@ -47,5 +51,8 @@ class Me(MethodView):
             "username": user.username,
             "role": user.role,
             "location": user.location,
-            "startup_id": user.startup_id
+            "startup_id": user.startup_id,
+            "field": user.field,
+            "skills": user.skills
+            
         }

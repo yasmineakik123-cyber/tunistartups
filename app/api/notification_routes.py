@@ -45,3 +45,12 @@ class NotificationUnreadCount(MethodView):
         user_id = int(get_jwt_identity())
         count = Notification.query.filter_by(user_id=user_id, is_read=False).count()
         return {"unread_count": count}
+@blp.route("/notifications/test")
+class NotificationTest(MethodView):
+    @jwt_required()
+    def post(self):
+        user_id = int(get_jwt_identity())
+        n = Notification(user_id=user_id, message="Test notification", kind="TEST", is_read=False)
+        db.session.add(n)
+        db.session.commit()
+        return {"message": "created"}, 201

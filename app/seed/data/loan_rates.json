@@ -1,42 +1,57 @@
 [
   {
-    "bank_name": "BIAT",
-    "product_name": "SME Loan (Simulation)",
-    "rate_value": 9.75,
-    "valid_from": "2025-01-01",
-    "valid_to": null,
-    "source_note": "Mock data for academic simulation"
+    "bank_id": "enda_tamweel",
+    "product_name": "Crédit Eco-prêt",
+    "currency": "TND",
+    "rate_type": "UNKNOWN",
+    "apr_min": null,
+    "apr_max": null,
+    "term_min_months": null,
+    "term_max_months": null,
+    "fees": "Amount: 200 to 40000 TND",
+    "url":"https://www.endatamweel.tn/nos-services/micro-credits/pack-environnement/#1463669348599-79a64959-3957",
+    "eligibility": "Activité liée au recyclage; Capacité de remboursement évaluée par l'institution",
+    "updated_at": "2026-01-14"
+    
   },
   {
-    "bank_name": "Amen Bank",
-    "product_name": "Startup Boost Loan (Simulation)",
-    "rate_value": 10.25,
-    "valid_from": "2025-01-01",
-    "valid_to": null,
-    "source_note": "Mock data for academic simulation"
+    "bank_id": "enda_tamweel",
+    "product_name": "Crédit Mawilni",
+    "currency": "TND",
+    "rate_type": "UNKNOWN",
+    "apr_min": null,
+    "apr_max": null,
+    "term_min_months": null,
+    "term_max_months": null,
+    "fees": "Amount: 200to 5000 TND",
+    "eligibility": "Activité non agricole existante; Exercée dans un local dédié",
+    "updated_at": "2026-01-14"
   },
   {
-    "bank_name": "Attijari Bank",
-    "product_name": "Working Capital Loan (Simulation)",
-    "rate_value": 10.90,
-    "valid_from": "2025-01-01",
-    "valid_to": null,
-    "source_note": "Mock data for academic simulation"
+    "bank_id": "enda_tamweel",
+    "product_name": "Crédit Mouassassati",
+    "currency": "TND",
+    "rate_type": "UNKNOWN",
+    "apr_min": null,
+    "apr_max": null,
+    "term_min_months": null,
+    "term_max_months": null,
+    "fees": "Amount: 6000 to 20000 TND",
+    "eligibility": "TPE non agricole ou micro-entreprise; Potentiel de développement",
+    "updated_at": "2026-01-14"
   },
   {
-    "bank_name": "BH Bank",
-    "product_name": "Investment Loan (Simulation)",
-    "rate_value": 9.95,
-    "valid_from": "2025-01-01",
-    "valid_to": null,
-    "source_note": "Mock data for academic simulation"
-  },
-  {
-    "bank_name": "BNA Bank",
-    "product_name": "Agritech Loan (Simulation)",
-    "rate_value": 10.60,
-    "valid_from": "2025-01-01",
-    "valid_to": null,
-    "source_note": "Mock data for academic simulation"
+    "bank_id": "enda_tamweel",
+    "product_name": "Crédit Eco-Chams",
+    "currency": "TND",
+    "rate_type": "UNKNOWN",
+    "apr_min": null,
+    "apr_max": null,
+    "term_min_months": null,
+    "term_max_months": null,
+    "fees": null,
+    "eligibility": null,
+    "url":"https://www.endatamweel.tn/nos-services/micro-credits/pack-environnement/#1604501800405-b77a1fd9-3dfe",
+    "updated_at": "2026-01-14"
   }
 ]

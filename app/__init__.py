@@ -3,7 +3,6 @@ from flask import Flask
 from flask_smorest import Api
 from flask_cors import CORS
 
-
 from .config import Config
 from .extensions import db, jwt, migrate
 
@@ -39,6 +38,7 @@ def create_app():
     from .api.contract_routes import blp as ContractBLP
     from .api.task_routes import blp as TaskBLP
     from .api.calendar_routes import blp as CalendarBLP
+    
     api.register_blueprint(AuthBLP, url_prefix="/api")
     api.register_blueprint(StartupBLP, url_prefix="/api")
     api.register_blueprint(PostBLP, url_prefix="/api")
@@ -48,6 +48,8 @@ def create_app():
     api.register_blueprint(FxBLP, url_prefix="/api")
     api.register_blueprint(TaskBLP, url_prefix="/api")
     api.register_blueprint(CalendarBLP, url_prefix="/api")
+    
+    
     @app.get("/api/health")
     def health():
         return {"status": "ok"}

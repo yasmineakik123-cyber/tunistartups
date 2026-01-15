@@ -1,7 +1,4 @@
 [
-  { "name": "BIAT" },
-  { "name": "Amen Bank" },
-  { "name": "Attijari Bank" },
-  { "name": "BH Bank" },
-  { "name": "BNA Bank" }
+  { "bank_id" : "enda_tamweel" ,
+    "bank_name": "Enda Tamweel" } 
 ]
