@@ -1,6 +1,10 @@
 
 
 # app/api/task_routes.py
+from datetime import date as dt_date
+
+import requests
+from flask import current_app
 from flask.views import MethodView
 from flask_smorest import Blueprint, abort
 from flask_jwt_extended import jwt_required, get_jwt_identity
@@ -133,6 +137,32 @@ def _notify_task_assignee(user_id: int, task_title: str):
     db.session.add(n)
 
 
+def _is_holiday_tn(d: dt_date) -> bool:
+    api_key = current_app.config.get("CALENDARIFIC_API_KEY", "")
+    base_url = current_app.config.get("CALENDARIFIC_BASE_URL", "https://calendarific.com/api/v2")
+    if not api_key:
+        abort(500, message="CALENDARIFIC_API_KEY is not set in environment.")
+
+    params = {
+        "api_key": api_key,
+        "country": "TN",
+        "year": d.year,
+        "month": d.month,
+        "day": d.day,
+        "type": "national",
+    }
+
+    try:
+        r = requests.get(f"{base_url}/holidays", params=params, timeout=10)
+        r.raise_for_status()
+        payload = r.json()
+    except requests.RequestException:
+        abort(502, message="Holiday provider error (Calendarific request failed).")
+
+    holidays = payload.get("response", {}).get("holidays", []) or []
+    return len(holidays) > 0
+
+
 # ----------------
 # Routes
 # ----------------
@@ -170,6 +200,8 @@ class Tasks(MethodView):
 
         assigned_to_id = None
         uname = (data.get("assignee_username") or "").strip()
+        if uname and _is_holiday_tn(dt_date.today()):
+            abort(400, message="Task assignment is disabled on holidays in Tunisia.")
         if uname:
             target = User.query.filter_by(username=uname).first()
             if not target:
