@@ -7,4 +7,9 @@ python-dotenv==1.0.1
 marshmallow==3.21.3
 passlib==1.7.4
 bcrypt==4.2.0
+flask-cors
+pandas
+scikit-learn
+joblib
+numpy
 

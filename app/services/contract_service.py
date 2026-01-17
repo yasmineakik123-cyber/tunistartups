@@ -13,7 +13,22 @@ def _notify(user_id: int, message: str, kind: str = "CONTRACT"):
     db.session.add(n)
 
 
-def create_contract(created_by_id: int, title: str, template_type: str, content: str) -> Contract:
+def create_contract(
+    created_by_id: int,
+    title: str,
+    template_type: str,
+    content: str,
+    party_user_ids: list[int] | None = None,
+) -> Contract:
+    notify_user_ids: list[int] = []
+    if party_user_ids:
+        notify_user_ids = list({int(x) for x in party_user_ids if int(x) != created_by_id})
+        if notify_user_ids:
+            existing = {u.id for u in User.query.filter(User.id.in_(notify_user_ids)).all()}
+            missing = [x for x in notify_user_ids if x not in existing]
+            if missing:
+                raise ValueError(f"Some users do not exist: {missing}")
+
     c = Contract(
         created_by_id=created_by_id,
         title=title,
@@ -22,6 +37,11 @@ def create_contract(created_by_id: int, title: str, template_type: str, content:
         status="DRAFT",
     )
     db.session.add(c)
+
+    if notify_user_ids:
+        for uid in notify_user_ids:
+            _notify(uid, f"New contract '{title}' was created.", kind="CONTRACT_CREATED")
+
     db.session.commit()
     return c
 

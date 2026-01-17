@@ -1,0 +1,201 @@
+team_size,founder_experience_years,has_technical_cofounder,industry,business_model,market_size,competition_level,mvp_ready,months_since_start,customer_traction,monthly_growth_rate_pct,initial_capital_tnd,monthly_burn_tnd,revenue_tnd_current_month,has_investor,reached_100k_proxy,months_to_100k_proxy
+6,2,0,Agri/Food,B2B,small,high,1,12,1,12.15,139457,11471,0,0,1,13.9
+2,11,1,Agri/Food,B2B,small,medium,1,20,2,19.86,11114,3197,2751,1,1,8.3
+5,2,0,Agri/Food,B2B,medium,medium,1,18,2,6.21,21155,7961,13554,1,1,7.2
+6,4,1,EdTech,B2B,small,low,1,27,1,9.2,8442,9763,3118,1,1,7.3
+1,5,0,SaaS/B2B tools,B2C,medium,medium,1,24,2,10.79,2629,4777,4932,0,1,8.1
+2,0,0,Other,B2B,small,medium,0,9,1,15.51,18819,4401,0,0,1,15.2
+1,4,0,E-commerce,Marketplace,medium,medium,1,13,2,10.26,14600,4298,5848,1,1,6.1
+7,8,1,E-commerce,B2B,small,high,1,19,1,12.52,69136,8324,2268,0,1,10.6
+2,9,0,E-commerce,B2C,medium,high,0,42,1,-3.58,23160,4588,7984,1,1,12.1
+1,1,0,EdTech,Marketplace,small,medium,1,11,0,-5.27,3955,2695,0,0,0,
+5,0,1,E-commerce,Marketplace,medium,medium,1,22,2,6.32,16656,7285,34610,0,1,7.5
+6,0,1,E-commerce,B2B,medium,medium,1,6,1,-1.68,12776,9897,0,0,1,11.3
+1,4,0,E-commerce,B2B,small,low,1,21,1,6.37,1662,1981,2331,0,1,13.0
+1,1,1,Services/Agency,B2C,medium,medium,1,5,2,13.07,25307,5863,4528,0,1,8.8
+7,3,1,SaaS/B2B tools,B2B,small,low,1,19,1,9.07,11384,14584,2339,0,1,10.8
+6,3,0,EdTech,B2C,medium,medium,1,13,2,7.71,28078,8903,6891,0,1,7.3
+4,0,1,EdTech,B2C,medium,high,1,19,1,11.7,27937,4216,5157,0,1,12.3
+5,1,0,SaaS/B2B tools,B2C,small,low,0,6,1,22.29,162651,9164,846,0,1,11.4
+4,5,1,E-commerce,B2B,large,medium,0,8,1,6.97,29911,6759,3848,1,1,11.4
+1,1,0,E-commerce,B2B,small,high,1,12,1,15.29,70554,3373,4261,1,1,8.5
+1,3,0,FinTech,B2B,large,medium,0,7,2,9.19,1635,2837,7470,0,1,9.1
+6,4,1,EdTech,B2C,large,medium,0,31,0,-5.07,12121,7078,0,0,0,
+3,2,1,Services/Agency,B2B,small,low,1,51,1,24.18,19438,6179,5929,0,1,10.5
+8,9,0,SaaS/B2B tools,B2B,medium,medium,1,24,1,12.27,5190,12140,2782,0,1,7.9
+2,10,0,Other,B2B,small,high,1,12,1,4.66,4913,5186,5944,0,1,10.1
+1,6,0,SaaS/B2B tools,B2B,small,medium,1,21,1,4.89,14799,2614,4613,1,1,8.5
+3,2,0,Agri/Food,B2B,medium,high,0,12,1,12.3,15942,4858,0,0,1,13.5
+9,3,0,Services/Agency,B2B,small,medium,1,17,1,19.98,27100,19911,0,0,1,11.4
+4,10,1,Other,B2C,medium,high,0,3,0,-3.82,109045,7231,0,0,0,
+1,2,0,E-commerce,B2C,medium,high,0,7,0,-3.2,18657,2580,0,0,0,
+2,7,1,Services/Agency,Marketplace,small,high,1,12,1,10.31,21529,5886,0,0,1,13.8
+4,2,1,Other,B2B,small,medium,1,23,2,-1.35,12611,8603,4826,1,1,9.1
+3,6,1,EdTech,B2B,small,medium,1,19,1,2.95,23515,6450,5967,1,1,9.0
+1,4,0,Other,B2B,medium,low,1,7,0,-5.86,15483,1397,0,0,0,
+3,2,1,E-commerce,B2C,large,low,1,5,1,7.98,74259,4858,0,0,1,9.6
+3,5,1,E-commerce,B2C,small,high,1,26,1,3.4,17076,7503,1406,0,1,10.9
+9,3,1,EdTech,Marketplace,medium,high,1,24,1,18.1,2343,6396,5038,0,1,11.0
+4,0,0,E-commerce,B2B,small,medium,0,14,1,-2.75,26919,7834,0,1,1,15.9
+7,0,1,EdTech,B2C,large,medium,1,6,1,2.47,22753,10765,2967,1,1,10.3
+3,5,0,E-commerce,Marketplace,small,medium,1,19,2,10.58,94439,7524,14861,0,1,8.7
+1,1,0,FinTech,B2C,large,medium,1,14,1,6.1,12274,3706,2580,1,1,9.6
+2,10,1,Services/Agency,B2C,medium,high,1,27,1,5.91,1355,5697,0,0,1,13.8
+8,8,1,Other,Marketplace,large,low,1,35,2,6.24,16271,9464,3707,1,1,6.7
+3,6,0,FinTech,B2C,large,low,0,5,0,3.18,13496,6811,0,0,0,
+1,9,0,Agri/Food,B2B,medium,medium,1,20,1,12.06,111945,2486,459,0,1,10.6
+4,3,0,SaaS/B2B tools,B2B,small,high,1,21,0,-0.66,23834,7199,291,1,1,14.6
+2,0,1,SaaS/B2B tools,B2C,small,high,1,23,1,10.42,17991,4493,5894,0,1,12.6
+5,12,1,SaaS/B2B tools,B2B,small,high,1,36,2,17.06,27213,7600,9267,0,1,8.1
+4,0,1,Services/Agency,B2C,medium,high,1,6,0,0.22,20242,8865,386,0,0,
+11,2,1,Health,B2C,medium,high,0,9,0,2.63,14695,20060,514,0,0,
+5,3,1,SaaS/B2B tools,B2C,medium,medium,1,21,2,3.97,58509,6291,5566,1,1,8.6
+2,0,1,SaaS/B2B tools,B2B,large,high,1,13,2,15.62,3355,4408,5128,0,1,9.9
+3,0,1,Health,Marketplace,small,medium,1,23,2,11.84,169609,6015,2281,1,1,9.1
+1,0,1,SaaS/B2B tools,B2C,small,low,1,12,2,25.6,4406,5153,12197,1,1,7.7
+3,6,0,SaaS/B2B tools,B2C,small,medium,1,25,1,16.31,97746,6397,6234,0,1,8.2
+2,4,0,Services/Agency,B2B,medium,high,1,47,1,8.92,7806,5403,2674,0,1,11.3
+4,0,1,E-commerce,B2C,large,high,1,13,2,9.62,6455,5781,2233,1,1,6.8
+7,2,1,SaaS/B2B tools,B2C,medium,medium,0,10,0,4.7,3460,12430,339,1,1,13.2
+2,10,1,EdTech,B2B,small,high,1,16,1,6.48,5796,4258,2877,0,1,12.9
+3,2,1,SaaS/B2B tools,B2B,medium,high,1,9,0,-5.02,21693,5281,0,0,0,
+4,0,1,Other,B2C,large,high,1,9,0,-0.14,25564,7265,0,0,0,
+2,1,0,FinTech,B2B,medium,high,1,9,2,-10.0,3033,6395,2215,0,1,8.6
+6,7,0,Services/Agency,B2C,large,low,1,4,1,11.19,18561,5435,0,0,1,9.0
+10,2,0,Agri/Food,Marketplace,small,high,1,13,0,3.37,29806,16714,75,0,0,
+1,7,1,E-commerce,B2B,large,high,0,11,0,2.43,8581,3382,587,0,0,
+6,3,1,SaaS/B2B tools,Marketplace,large,high,1,12,1,9.24,2323,12243,0,1,1,11.2
+2,3,1,Other,Marketplace,small,low,1,10,2,26.31,18780,5512,10153,1,1,6.2
+3,10,1,SaaS/B2B tools,B2B,medium,medium,1,17,1,2.92,5066,5961,3387,0,1,9.8
+3,2,1,E-commerce,B2B,small,high,1,60,1,18.5,24666,7292,6458,0,1,10.8
+10,2,1,SaaS/B2B tools,B2B,medium,high,1,4,0,10.24,22418,21900,0,0,0,
+8,6,1,Health,B2C,medium,medium,1,17,1,1.63,2098,14744,5311,0,1,8.3
+3,2,1,Services/Agency,B2B,small,medium,1,22,1,4.68,27900,8019,6110,0,1,10.3
+1,0,1,SaaS/B2B tools,B2B,medium,high,1,5,1,4.34,199120,4183,3369,0,1,12.0
+2,1,0,E-commerce,B2C,large,medium,1,9,2,15.46,27399,3832,3415,0,1,8.1
+2,6,1,FinTech,B2C,large,medium,1,30,1,-0.89,24298,3304,0,0,1,11.4
+7,4,0,Health,Marketplace,medium,medium,1,42,1,8.02,6017,9157,6890,1,1,7.2
+1,9,1,SaaS/B2B tools,B2C,large,medium,1,23,1,7.02,174670,2904,4386,1,1,9.1
+9,5,0,SaaS/B2B tools,Marketplace,medium,high,0,1,0,-1.42,17479,8810,423,0,0,
+10,5,1,Other,Marketplace,medium,high,1,34,2,-0.54,23634,13279,5015,0,1,9.1
+7,0,1,Services/Agency,B2B,medium,medium,1,24,1,8.87,38650,13907,1731,0,1,10.0
+2,0,1,Other,B2B,medium,high,1,50,1,2.3,167998,4891,8479,1,1,8.4
+1,0,0,E-commerce,Marketplace,small,low,1,10,2,15.0,15664,3098,4557,1,1,7.2
+7,2,1,Health,Marketplace,small,high,1,28,1,-2.23,8695,12245,0,0,1,14.1
+1,2,0,SaaS/B2B tools,B2C,small,medium,1,10,1,6.67,27839,3764,0,0,1,15.0
+3,3,1,Other,B2B,small,medium,1,15,2,11.26,17099,5667,6202,1,1,8.2
+2,8,1,SaaS/B2B tools,B2B,large,high,1,18,1,10.51,198347,6346,0,0,1,10.3
+3,12,1,Other,Marketplace,medium,medium,1,20,2,2.21,22475,3677,1718,1,1,8.5
+4,0,1,Services/Agency,B2C,medium,medium,1,21,2,12.12,18197,7064,5499,0,1,8.7
+1,1,1,Health,B2B,medium,high,1,25,1,-4.93,10566,2324,5565,0,1,9.7
+3,4,1,Services/Agency,B2C,small,medium,0,10,0,-4.68,33036,8763,548,0,0,
+7,4,0,EdTech,B2C,medium,medium,0,6,1,3.17,9366,12366,0,0,1,16.7
+2,7,0,SaaS/B2B tools,Marketplace,small,high,0,16,0,-10.66,20226,3382,0,0,0,
+7,2,1,Other,B2B,small,high,1,12,0,10.18,4194,8946,0,0,0,
+1,0,1,Services/Agency,B2B,medium,high,1,12,1,8.74,12638,2976,4640,0,1,12.1
+9,11,1,E-commerce,B2C,medium,low,1,32,2,13.75,14394,13578,18866,1,1,6.2
+9,3,1,Other,B2C,medium,high,1,23,1,-0.96,61702,8461,1481,1,1,9.2
+2,5,1,SaaS/B2B tools,B2C,large,high,1,16,1,-1.65,7154,5334,4572,0,1,9.5
+1,3,0,SaaS/B2B tools,B2C,medium,low,1,13,1,8.85,984,1950,2158,1,1,8.1
+5,12,0,Other,B2B,medium,medium,0,17,1,1.0,24192,9745,831,1,1,12.5
+6,4,1,Agri/Food,B2C,small,medium,1,28,1,5.8,75958,11706,2105,1,1,8.7
+4,2,0,Agri/Food,B2C,large,high,1,8,1,-0.6,129308,6809,547,0,1,10.0
+3,1,1,Health,B2C,large,high,1,19,1,25.69,3125,7543,818,0,1,11.9
+2,2,1,SaaS/B2B tools,B2C,small,high,1,21,2,32.1,19664,5857,4774,0,1,7.5
+1,2,0,Services/Agency,B2C,small,medium,1,13,2,21.11,17626,4791,6957,0,1,8.2
+1,3,0,E-commerce,B2B,medium,high,1,16,2,2.42,36193,3129,6854,0,1,8.0
+1,8,0,FinTech,B2C,small,high,1,4,0,-14.29,1295,4150,0,0,0,
+3,2,1,EdTech,Marketplace,large,low,1,13,1,6.89,14889,5217,0,0,1,10.4
+2,4,1,SaaS/B2B tools,B2B,medium,high,1,21,1,24.01,2074,2571,700,0,1,9.0
+1,0,0,Agri/Food,B2C,medium,medium,0,51,0,2.43,38797,4705,0,0,0,
+3,2,0,Services/Agency,B2C,medium,low,1,39,2,21.6,4518,3990,12564,0,1,8.3
+2,0,1,EdTech,Marketplace,small,medium,1,26,2,28.13,166981,3505,15981,0,1,7.6
+3,3,0,E-commerce,B2C,medium,low,0,6,0,-9.2,153369,5517,445,0,0,
+10,4,1,Health,B2C,medium,high,1,3,1,-0.06,12128,17465,4193,1,1,7.9
+3,8,0,Health,B2C,medium,medium,1,32,1,13.94,25923,4926,0,0,1,12.8
+3,1,0,E-commerce,B2C,large,medium,1,6,2,37.43,1528,8289,8196,1,1,6.9
+10,7,0,Services/Agency,B2C,large,high,1,16,1,2.92,6982,17407,0,0,1,10.8
+4,8,0,E-commerce,Marketplace,large,high,0,2,0,5.09,129553,4352,0,0,0,
+3,2,1,Other,B2C,small,medium,0,58,1,8.51,751,4612,7442,0,1,12.1
+1,0,0,Health,Marketplace,small,high,1,39,2,13.37,50789,2223,10045,1,1,7.2
+1,3,1,SaaS/B2B tools,B2B,large,high,1,7,1,3.82,191613,3918,0,0,1,11.1
+4,2,1,Agri/Food,B2B,medium,high,0,1,1,-6.67,179171,6550,2938,0,1,13.8
+1,3,1,Agri/Food,B2B,medium,medium,1,35,2,19.62,17246,3855,7389,0,1,9.6
+3,7,1,FinTech,B2B,large,medium,1,31,1,11.77,7379,5364,3705,0,1,8.8
+3,4,1,SaaS/B2B tools,B2B,large,high,1,8,1,6.04,22175,5050,2301,0,1,11.7
+1,7,1,E-commerce,B2C,large,high,1,14,1,7.14,69091,3203,0,0,1,10.9
+3,12,1,E-commerce,B2B,medium,high,1,8,2,18.37,11804,5705,11999,1,1,6.9
+5,4,1,E-commerce,B2B,small,high,1,8,1,12.68,6759,11739,4958,0,1,10.4
+4,9,1,E-commerce,B2C,small,high,0,13,0,0.69,26623,5860,0,1,1,14.1
+1,4,1,SaaS/B2B tools,B2C,medium,high,0,7,0,-1.41,29653,3621,0,0,0,
+1,4,1,E-commerce,B2C,small,high,0,10,1,11.25,849,2725,1845,1,1,14.4
+11,6,1,SaaS/B2B tools,B2C,large,high,1,27,2,27.54,19495,13890,8075,1,1,6.5
+2,0,0,FinTech,B2C,medium,medium,0,40,1,4.18,22434,3789,0,1,1,13.1
+4,9,1,E-commerce,B2B,medium,low,1,9,1,8.09,30,4112,1454,0,1,8.9
+1,0,1,Other,B2B,medium,high,1,30,1,11.12,27937,4229,715,0,1,14.1
+1,3,0,Health,B2B,small,medium,0,18,0,-6.52,20224,3262,0,0,0,
+4,8,1,Health,B2B,small,low,1,16,2,16.73,8508,7926,4614,0,1,6.9
+8,3,0,Services/Agency,B2C,small,medium,1,9,1,6.29,16288,8335,3822,0,1,10.3
+6,4,1,Health,B2B,large,high,1,51,1,7.94,16467,9026,5245,0,1,9.9
+2,11,0,E-commerce,B2B,medium,medium,1,38,1,14.18,22525,5748,5885,1,1,7.6
+2,2,1,FinTech,B2B,medium,medium,1,17,1,13.2,1934,4102,287,0,1,10.8
+9,6,1,SaaS/B2B tools,B2B,large,medium,0,9,0,1.33,23485,11926,0,0,0,
+2,8,0,SaaS/B2B tools,B2C,medium,medium,0,27,2,35.24,26073,5324,4535,0,1,9.5
+5,2,0,Services/Agency,B2B,medium,high,0,10,1,0.11,2507,8170,0,0,1,18.6
+4,2,1,EdTech,B2C,large,medium,1,7,1,12.97,20200,4613,2658,1,1,8.6
+1,5,1,Other,B2C,large,low,1,33,0,-9.43,11296,2081,402,0,0,
+2,0,1,EdTech,B2C,small,medium,0,18,1,0.51,193942,4712,0,1,1,15.8
+12,5,0,Health,Marketplace,medium,low,1,31,2,16.59,14745,12381,9785,1,1,5.7
+1,3,1,Health,B2B,medium,high,1,18,2,3.88,140397,2318,3293,1,1,8.6
+6,4,1,E-commerce,B2B,medium,low,0,11,1,24.7,4170,12480,2732,0,1,9.7
+1,0,0,Other,B2C,medium,medium,1,7,0,1.06,10366,5503,0,0,0,
+6,0,0,Services/Agency,B2B,small,low,1,8,1,3.07,22902,12558,4089,0,1,11.1
+3,2,1,E-commerce,B2B,small,medium,1,9,1,6.6,13001,5820,5564,0,1,10.4
+1,9,1,Services/Agency,B2C,large,high,0,4,0,-5.12,189274,2607,106,0,0,
+3,5,0,Agri/Food,B2B,large,medium,0,14,1,17.28,7280,5854,3330,0,1,9.9
+1,3,1,Health,B2B,medium,high,1,11,1,13.06,10690,3680,2203,0,1,10.1
+2,5,1,EdTech,B2C,medium,high,1,23,1,10.93,27462,6239,3974,0,1,10.7
+9,2,1,Services/Agency,B2C,medium,high,1,8,0,-1.57,19439,11784,497,0,0,
+1,5,1,E-commerce,B2B,small,medium,1,3,2,17.78,88186,2826,2467,0,1,9.1
+4,11,1,Services/Agency,B2C,medium,medium,1,14,1,-4.34,10931,9464,5111,0,1,8.2
+1,12,0,FinTech,Marketplace,large,low,1,49,1,10.09,23791,3263,4262,0,1,9.4
+3,7,0,Other,Marketplace,medium,medium,0,3,1,6.91,22384,3623,3285,0,1,13.7
+5,2,0,Agri/Food,B2C,medium,low,1,31,2,14.96,8342,14495,4466,0,1,7.2
+4,6,1,SaaS/B2B tools,Marketplace,small,medium,1,11,2,6.39,1462,4874,7205,1,1,6.6
+8,3,0,Agri/Food,B2C,small,medium,0,54,2,-5.24,10321,11889,11164,0,1,10.7
+3,8,1,E-commerce,Marketplace,large,high,1,25,1,4.38,13372,4525,785,0,1,10.7
+5,8,1,Agri/Food,B2C,medium,high,1,22,1,6.09,29930,11281,1126,1,1,11.0
+1,0,1,Services/Agency,B2C,small,high,0,3,1,7.24,4792,3808,4421,0,1,18.1
+4,4,1,E-commerce,B2C,large,high,0,8,0,0.68,120844,4282,0,0,0,
+2,7,1,Services/Agency,B2C,small,medium,1,26,2,14.71,6380,5659,8050,1,1,7.4
+2,4,1,Services/Agency,B2C,medium,high,1,47,2,14.63,12771,2982,2784,1,1,8.1
+1,3,1,FinTech,B2C,small,low,0,2,0,0.28,9938,2351,596,0,0,
+5,6,0,Other,B2B,medium,medium,1,12,2,10.46,21289,11519,11752,0,1,6.9
+5,6,1,SaaS/B2B tools,B2C,small,high,1,50,2,15.23,6008,6637,3412,1,1,8.6
+1,12,0,Services/Agency,B2C,small,low,1,16,2,13.23,193414,4466,10978,0,1,6.7
+7,9,1,Services/Agency,B2B,large,high,1,7,1,6.56,4606,13342,1689,0,1,9.4
+1,0,0,E-commerce,B2B,medium,high,1,28,0,-2.68,11708,3226,395,1,1,15.2
+4,1,0,Services/Agency,Marketplace,medium,medium,1,11,1,4.99,1198,8451,3691,0,1,11.5
+2,1,1,SaaS/B2B tools,B2C,medium,medium,1,29,2,13.36,14099,4526,3281,0,1,8.4
+2,1,1,E-commerce,B2C,large,medium,1,47,2,13.55,151191,6336,4147,1,1,7.8
+3,3,1,Other,B2B,small,medium,1,20,2,11.3,11231,7594,14607,1,1,8.0
+3,2,1,Services/Agency,B2B,medium,high,1,5,2,13.21,16802,7569,3678,1,1,7.7
+2,2,1,EdTech,B2B,small,low,1,8,2,3.35,2734,5767,6693,1,1,8.0
+12,10,0,E-commerce,B2C,small,low,1,10,1,8.27,12963,13164,0,0,1,9.4
+1,3,1,Health,B2C,medium,high,1,1,0,-9.13,199365,2241,0,1,1,11.5
+3,2,1,E-commerce,B2B,medium,high,1,10,1,6.09,18367,3496,3304,0,1,9.3
+5,1,0,E-commerce,B2C,large,high,1,20,2,13.54,10652,8244,10052,0,1,7.7
+5,0,1,Other,B2B,small,medium,0,30,1,-0.96,13458,13092,6061,0,1,12.2
+4,0,1,FinTech,B2C,medium,high,1,19,1,14.38,12198,7264,1996,1,1,9.5
+9,3,0,EdTech,B2C,small,low,1,9,1,8.53,18654,17116,1918,1,1,9.8
+5,8,1,SaaS/B2B tools,B2C,large,high,1,17,2,19.29,14506,11136,1982,1,1,7.8
+8,5,1,EdTech,B2C,medium,medium,1,15,2,9.13,15869,6605,6016,1,1,6.8
+2,3,0,SaaS/B2B tools,B2B,medium,low,1,31,1,15.91,25800,3280,4209,0,1,10.4
+12,1,1,FinTech,B2B,medium,high,1,11,1,-6.35,27564,15417,695,0,1,13.6
+2,3,1,E-commerce,Marketplace,small,low,1,26,2,22.77,5702,3365,3942,0,1,7.4
+4,0,1,Other,B2B,small,low,1,12,1,8.14,16700,7365,627,0,1,14.3
+3,4,0,FinTech,B2B,medium,medium,1,14,1,9.19,87844,4448,0,0,1,13.5
+2,10,0,Agri/Food,B2C,large,high,1,22,2,-4.9,111347,4428,6379,1,1,8.1
+1,2,0,EdTech,B2C,large,medium,1,8,0,1.91,2248,3866,0,0,0,
+5,12,1,SaaS/B2B tools,B2C,small,high,1,11,2,28.61,24592,7093,15208,0,1,7.4
+1,1,0,EdTech,B2C,medium,high,1,33,1,0.06,41953,1726,0,0,1,17.0

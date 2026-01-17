@@ -22,6 +22,7 @@ class Register(MethodView):
     def post(self, data):
         user = register_user(
             username=data["username"],
+            email=data["email"],
             password=data["password"],
             role=data["role"],
             location=data.get("location"),
@@ -36,19 +37,20 @@ class Login(MethodView):
     @blp.arguments(LoginSchema)
     @blp.response(200, TokenSchema)
     def post(self, data):
-        user = authenticate_user(data["username"], data["password"])
+        user = authenticate_user(data["email"], data["password"])
         return {"access_token": make_token(user)}
 
 @blp.route("/users/me")
 class Me(MethodView):
     @jwt_required()
-    @blp.response(200, RegisterSchema)
+    @blp.response(200, MeSchema)
     def get(self):
         user_id = int(get_jwt_identity())
         user = User.query.get_or_404(user_id)
         return {
             "id": user.id,
             "username": user.username,
+            "email": user.email,
             "role": user.role,
             "location": user.location,
             "startup_id": user.startup_id,

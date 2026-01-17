@@ -36,13 +36,17 @@ class Contracts(MethodView):
     @blp.response(201, ContractOutSchema)
     def post(self, data):
         user_id = int(get_jwt_identity())
-        c = create_contract(
-            created_by_id=user_id,
-            title=data["title"],
-            template_type=data["template_type"],
-            content=data["content"],
-        )
-        return c
+        try:
+            c = create_contract(
+                created_by_id=user_id,
+                title=data["title"],
+                template_type=data["template_type"],
+                content=data["content"],
+                party_user_ids=data.get("party_user_ids"),
+            )
+            return c
+        except ValueError as e:
+            abort(400, message=str(e))
 
 
 @blp.route("/contracts/<int:contract_id>")

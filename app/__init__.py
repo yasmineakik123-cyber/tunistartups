@@ -13,7 +13,7 @@ def create_app():
 
     CORS(
         app,
-        resources={r"/api/*": {"origins": ["http://localhost:3000"]}},
+        resources={r"/api/*": {"origins": ["http://localhost:3000", "http://localhost:5173"]}},
         supports_credentials=True,
         allow_headers=["Content-Type", "Authorization"],
         methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
@@ -38,6 +38,7 @@ def create_app():
     from .api.contract_routes import blp as ContractBLP
     from .api.task_routes import blp as TaskBLP
     from .api.calendar_routes import blp as CalendarBLP
+    from .api.scoring_routes import blp as ScoringBLP
     
     api.register_blueprint(AuthBLP, url_prefix="/api")
     api.register_blueprint(StartupBLP, url_prefix="/api")
@@ -48,6 +49,7 @@ def create_app():
     api.register_blueprint(FxBLP, url_prefix="/api")
     api.register_blueprint(TaskBLP, url_prefix="/api")
     api.register_blueprint(CalendarBLP, url_prefix="/api")
+    api.register_blueprint(ScoringBLP, url_prefix="/api/scoring")
     
     
     @app.get("/api/health")

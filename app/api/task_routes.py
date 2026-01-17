@@ -10,6 +10,7 @@ from ..extensions import db
 from ..models.user import User
 from ..models.task import Task
 from ..models.startup import Startup
+from ..models.notification import Notification
 from ..services.score_service import add_score_event
 
 blp = Blueprint("tasks", __name__, description="Tasks endpoints")
@@ -122,6 +123,15 @@ def _require_target_in_same_startup(target: User, startup_id: int):
         return
     abort(400, message="This user is not a member of your startup.")
 
+def _notify_task_assignee(user_id: int, task_title: str):
+    n = Notification(
+        user_id=user_id,
+        message=f"You have been assigned a task: {task_title}",
+        kind="TASK_ASSIGNED",
+        is_read=False,
+    )
+    db.session.add(n)
+
 
 # ----------------
 # Routes
@@ -179,6 +189,8 @@ class Tasks(MethodView):
         )
 
         db.session.add(task)
+        if assigned_to_id is not None:
+            _notify_task_assignee(assigned_to_id, task.title)
         db.session.commit()
         return task
 
@@ -225,6 +237,7 @@ class TaskItem(MethodView):
                     abort(403, message="Members can only update task status.")
 
         old_status = task.status
+        old_assigned_to_id = task.assigned_to_id
 
         # Owner/Admin can update all editable fields
         if owner_like:
@@ -252,6 +265,9 @@ class TaskItem(MethodView):
         # Everyone (owner/admin/member assigned) can update status, but members only have this
         if data.get("status") is not None:
             task.status = data["status"]
+
+        if task.assigned_to_id is not None and task.assigned_to_id != old_assigned_to_id:
+            _notify_task_assignee(task.assigned_to_id, task.title)
 
         db.session.commit()
 
